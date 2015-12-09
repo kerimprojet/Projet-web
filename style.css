@@ -1,47 +1,72 @@
 
 body {	
-	
+	padding:0;
+	margin:0;
 	background-image:url(images/background.jpg);
 	background-size:cover;
+	background-attachment:scroll;
+	
+	
 	}
 
 h1 {
 	font-family: "trebuchet ms";
-	font-size: 25px;
-	color:blue;
+	font-size: 35px;
+	color:black;
 	text-align:center;
 	margin-bottom:20px;
 
 }
 
 h2{
+	font-family: "trebuchet ms";
 	color:black;
-	font-size:30px;
+	font-size:25px;
+	text-align:center;
+	
 }
 
+/* barre de menu */
 
 
-#search_button form{
-float:right;
-padding-top:15px;
-padding-left:400px;
-margin:0;
+
+.search_field
+{
+	margin-top:6.5px;
+	margin-right:50px;
+	float:right;
+	border-width:1px;
+	border-style:solid;
 }
-
 
 #search_box {
 float:right;
 width:310px;
 padding-top:0;
-padding-right:0;
+
 }
 
+#main_menu.wesh
+{
+	visited:green;
+	paddin-bottom:15px
+
+}
+
+#main_menu{
+border-width:2px;
+border-style:solid;
+background-color:grey;
+padding-left:12px;
+display: inline-block;
+width:99%;
+
+}	
 
 #main_menu ul {
 width:600px;
 float:left;
 text-align:left;
-list-style-type:none;
 line-height:36px;
 margin:0;
 padding:0;
@@ -52,27 +77,16 @@ width:auto;
 float:left;
 margin-right:0;
 margin-left:0;
+font-size:11px;
 display:inline;
-font-size:1.4em;
 line-height:36px;
 }
-
-
-
-#main_menu{
-	background-color: grey;
-	padding-left:12px;
-	display: inline-block;
-	width:99%;
-}	
-	
 	
 #main_menu a{
-	
-	text-decoration:inherit;
-	color:white;
-	padding: 0px 5px 0px 5px;
-	background-color: grey;
+text-decoration:inherit;
+color:white;
+padding: 0px 5px 0px 5px;
+background-color: grey;
 }
 
 
