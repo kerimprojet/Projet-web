@@ -139,10 +139,31 @@ background-color: grey;
 	background: #FFF;
 }
 
+.case1
+{
+	border-width:1px;
+	border-style:solid;
+	margin-right:500px;	
+	background-color:grey;
+	font-family: "trebuchet ms";
+	
+}
 
+#prix .prixavant
+{
+	line-through: 1.5px;
+}
 
+.case
+{
+	padding: 1% 7% 7% 7%;
+	border-top: 1px solid #D9D9D9;
+}
 
-
+.case1 img$
+{
+	display:block;
+}
 
 
 
