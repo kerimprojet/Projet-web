@@ -91,7 +91,16 @@ background-color: grey;
 
 /* contenus */ 
 
-.espace{clear:both;}
+
+.prixactuel
+{
+	color:red;
+}
+
+.espace
+{
+	clear:both;
+}
 
 .taille-contenu{
 	width:80%;
@@ -128,6 +137,10 @@ background-color: grey;
 	
 }
 	
+.placement-cadre {
+	float: left;
+	width: 25%;
+}
 
 .case
 {
