@@ -1,7 +1,7 @@
 body {	
 	padding:0;
 	margin:0;
-	background:url(images/background.jpg) no-repeat center fixed;
+	background:url(images/BMW-M4-F82-.jpg) no-repeat center fixed;
 	background-size:cover;
 	-webkit-background-size:cover;
 	background-attachment:scroll;
@@ -12,7 +12,8 @@ h1 {
 	font-size: 35px;
 	color:black;
 	text-align:center;
-	margin-bottom:20px;
+	margin-bottom:30px;
+	margin-top:15;
 
  }
 
@@ -21,26 +22,54 @@ h2{
 	color:black;
 	font-size:25px;
 	text-align:center;
-	
+	margin-bottom:40px;
+	margin-top:40px;
  }
 
+ .header2 h1
+ {
+	font-family: "trebuchet ms";
+	font-size: 35px;
+	color:black;
+	text-align:right;
+	margin-bottom:25px;
+	margin-top:-42px;
+	margin-right:45px;
+	 
+ }
+ .header2 p
+ {
+	 font-family:trebuchet;
+	 font-size:17px;
+	 
+ }
+ .header2 img
+ {
+	margin-top:2px;
+	 
+ }
+ 
 /* barre de menu */
 
 .search_field
 {
-	margin-top:6.5px;
+	margin-top:7px;
 	margin-right:50px;
 	float:right;
 	border-width:1px;
 	border-style:solid;
+	border-color:black;
 }
 
 #main_menu li button
 {
 	padding-bottom:7px;
 	padding-top:7px;
-	border-radius: 0.5px 0.5px 0.5px 0.5px;
+	border-radius: 1px 1px 1px 1px;
 	border:outset;
+	background:#F0F0F0;
+	color:black;
+	
 }
 
 #search_box {
@@ -124,7 +153,7 @@ background-color: grey;
 .contenu-cadre{
 	padding: 5% 6%;
 	color: black;
-	background: #FFF;
+	background: #F0F0F0;
 }
 
 .case1
@@ -192,9 +221,98 @@ background-color: grey;
 	height:120px;		
 }
 
+.coordonnee p
+{
+	font-family:arial;
+}
 
-.contact-form input[type="submit"]:hover{
-	background-color:#000;
+.carteMaps
+{
+		margin-left:199px;
+		margin-top:-250px;
+}
+
+
+/* detail vago */
+.commentaire {
+	margin-top: 50px;
+	color:#333;
+}
+.commentaire p {
+	position: relative;
+	padding: 8px 0;
+}
+.commentaire label
+ {
+	display: block;
+}
+
+.commentaire input[type="text"] 
+{
+	padding: 7px 15px;
+	width: 47%;
+	color: #222;
+	font-size: 13px;
+	border:none;
+	background: white;
+	outline: none;
+	display: block;
+}
+.commentaire textarea {
+	padding: 7px 15px;
+	width: 70%;
+	color: #222;
+	font-size: 13px;
+	outline: none;
+	height: 100px;
+	display: block;
+	border: none;
+	background: white;
+	font-family: 'Arial', sans-serif;
+}
+
+.txt-taille{
+	width: 68.1%;
+}
+.txt-taille  h1{
+	color:blue;
+	text-align:center;
+	font-size:1.8em;
+	font-weight :normal;
+	margin-top: 0px;
+	margin-left:200px;
+}
+.txt-taille  p{
+	font-size:1.1em;
+	padding:0.3em;
+	color: black;
+	line-height: 1.6em;
+}
+.zone-com {
+	padding-top:2%;
+}
+.details-top{
+	margin-top:3%;
+}
+.details-bot{
+	margin-bottom: 2%;
+}
+
+.yan
+{
+	float:right;
+	margin-right:-250px;
+	margin-bottom:50px;
+	
+}
+
+.gogo 
+{
+	float:center;
+	margin-left:115px;
+	margin-top:30px;
+	margin-bottom:30px;
+	
 }
 
 
