@@ -51,16 +51,6 @@ h2{
  
 /* barre de menu */
 
-.search_field
-{
-	margin-top:7px;
-	margin-right:50px;
-	float:right;
-	border-width:1px;
-	border-style:solid;
-	border-color:black;
-}
-
 #main_menu li button
 {
 	padding-bottom:7px;
@@ -72,14 +62,10 @@ h2{
 	
 }
 
-#search_box {
-float:right;
-width:310px;
-padding-top:0;
 
-}
 
 #main_menu{
+
 border-width:2px;
 border-style:solid;
 background-color:grey;
@@ -115,8 +101,39 @@ padding: 0px 5px 0px 5px;
 background-color: grey;
 }
 
+#search_field
+{
+	margin-top:-18px;
+	margin-left:-2px;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+}
+
+#identifiant
+{
+	margin-top:10px;
+	margin-left:-450px;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+}
 
 
+#mdpasse
+{
+	margin-left:-240px;
+	margin-top:-18px;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+}
+
+#search_box 
+{
+float:right;
+width:310px;
+}
 
 /* contenus */ 
 
@@ -180,6 +197,7 @@ background-color: grey;
 .case1 img$
 {
 	display:block;
+	
 }
 
 
@@ -316,19 +334,29 @@ background-color: grey;
 }
 
 
-@media only screen and (max-width: 480px) {
-	.taille-contenu{
+@media only screen and (max-width: 480px) 
+{
+	.taille-contenu 
+	{
 		width:95%;
     }
+
 }
-@media (max-width:1024px){
-	.taille-contenu{
+@media (max-width:1024px)
+{
+	.taille-contenu
+	{
 		width:95%;
 	}
+
 	
 
 	
-	@media (max-width:1366px){
-	.taille-contenu{
+@media (max-width:1366px)
+	{
+	.taille-contenu
+	{
 		width:95%;
 	}	
+
+	}
