@@ -28,6 +28,7 @@ h2{
 
  .header2 h1
  {
+	 
 	font-family: "trebuchet ms";
 	font-size: 35px;
 	color:black;
@@ -65,12 +66,12 @@ h2{
 
 
 #main_menu{
-
+	
+display: inline-block;
 border-width:2px;
 border-style:solid;
 background-color:grey;
-padding-left:12px;
-display: inline-block;
+padding:4px 2px 2px 2px;
 width:99%;
 
 }	
@@ -87,10 +88,9 @@ padding:0;
 #main_menu li {
 width:auto;
 float:left;
-margin-right:0;
-margin-left:0;
+
 font-size:11px;
-display:inline;
+list-style: none;
 line-height:36px;
 }
 	
@@ -101,19 +101,21 @@ padding: 0px 5px 0px 5px;
 background-color: grey;
 }
 
-#search_field
+#search_box 
 {
-	margin-top:-18px;
-	margin-left:-2px;
-	border-width:1px;
-	border-style:solid;
-	border-color:black;
+display : block;
 }
+
+
+#identifiant, #search_fileld, #mdpasse{
+	
+	margin : 0px;
+	display: inline-block;
+}
+
 
 #identifiant
 {
-	margin-top:10px;
-	margin-left:-450px;
 	border-width:1px;
 	border-style:solid;
 	border-color:black;
@@ -122,18 +124,21 @@ background-color: grey;
 
 #mdpasse
 {
-	margin-left:-240px;
-	margin-top:-18px;
 	border-width:1px;
 	border-style:solid;
 	border-color:black;
 }
 
-#search_box 
+#search_field
 {
-float:right;
-width:310px;
+	position: absolute;
+    top: 14px;
+    right: 10px;
+    width: 200px;
+    border: 1px solid black;
+
 }
+
 
 /* contenus */ 
 
