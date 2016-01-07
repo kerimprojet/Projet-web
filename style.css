@@ -53,7 +53,7 @@ h2{
  .panier
  {
 	position:absolute;
-    top:6px;
+    top:16px;
     right:220px;
 	    	 
  }
@@ -96,10 +96,10 @@ padding:0;
 #main_menu li {
 width:auto;
 float:left;
-
 font-size:11px;
 list-style: none;
 line-height:36px;
+margin-top:8px;
 }
 	
 #main_menu a{
@@ -124,9 +124,11 @@ display : block;
 
 #identifiant
 {
+	margin-top:8px;
 	border-width:1px;
 	border-style:solid;
 	border-color:black;
+	border-bottom:none;
 }
 
 
@@ -135,12 +137,14 @@ display : block;
 	border-width:1px;
 	border-style:solid;
 	border-color:black;
+	border-top:-6px;
+	
 }
 
 #search_field
 {
 	position: absolute;
-    top: 14px;
+    top:23px;
     right: 10px;
     width: 200px;
     border: 1px solid black;
@@ -215,20 +219,25 @@ display : block;
 	
 }
 
-button.details /* faut mettre la classe details sur tous les bouttons */
+button.details
 {
 	border: 1px solid black;
 	border-bottom: 1px solid;
-	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background: #F0F0F0;
+	background:#F0F0F0;
 	float:right;
-	padding: 7px 20px;
-	color:black;
-    cursor:pointer;
+	padding:7px 20px;
 }
-	
 
+input.envoyer
+{
+	border: 1px solid;
+	border-color:#333;
+	border-radius: 5px;
+	background:white;
+	float:left;
+	padding:7px 20px;
+}
 
 /* contact */ 
 
@@ -280,6 +289,8 @@ button.details /* faut mettre la classe details sur tous les bouttons */
 
 
 /* detail vago */
+
+
 .commentaire {
 	margin-top: 50px;
 	color:#333;
@@ -315,6 +326,17 @@ button.details /* faut mettre la classe details sur tous les bouttons */
 	border: none;
 	background: white;
 	font-family: 'Arial', sans-serif;
+}
+
+input.commentaire
+{
+	border:1px solid;
+	border-color:#333;
+	border-radius: 5px;
+	background:white;
+	float:left;
+	padding:7px 20px;
+	margin-top:0.5%;
 }
 
 .txt-taille{
