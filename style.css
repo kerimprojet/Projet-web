@@ -219,6 +219,13 @@ display : block;
 	
 }
 
+.case1
+{
+max-width :352px;
+margin: 10px 0px 10px 0px;
+
+}
+
 button.details
 {
 	border: 1px solid black;
@@ -383,6 +390,21 @@ input.commentaire
 	
 }
 
+@media screen and (max-width: 530px) { /*mobile*/
+nav 
+{ 
+	margin-left: 0px;
+	padding: 0px 0px;
+	background: linear-gradient (to bttom,0%,100%");}
+}
+
+@media screen and (min-width: 530px) { /*PC*/
+nav 
+{ 
+	margin-left: 0px;
+	padding: 0px 0px 0px;
+	background: linear-gradient (to bttom,0%,100%");}
+}
 
 @media only screen and (max-width: 480px) 
 {
